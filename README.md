@@ -1,5 +1,6 @@
 # Assignment1
-wireframe: https://xd.adobe.com/view/e117b908-6ddd-4011-9298-cdd1a80073ed-b444/
+wireframe: https://xd.adobe.com/view/e6412877-44b1-4afb-9239-cc6b6a545d89-b312/ (Web)
+           https://xd.adobe.com/view/e117b908-6ddd-4011-9298-cdd1a80073ed-b444/ (Phone)
 
 References:
 https://sg.puma.com/ (puma shoes)
