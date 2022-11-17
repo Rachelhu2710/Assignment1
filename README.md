@@ -1,5 +1,5 @@
 # PUMA Shoes Website
-This website is to let people be able to buy just shoes from PUMA. This website allows user to purchase and scroll PUMA shoes. 
+This website is to let people be able to buy just shoes from PUMA. It allows customers to purchase and scroll PUMA shoes. PUMA's website has a lot more variety while this website only consists of shoes to let customers who want to buy shoes can help minimize the trouble of filtering out to display only shoes. This website mainly eases customers from searching or filtering out things they do not want to see. 
 ## wireframe
 - [Web](https://xd.adobe.com/view/e6412877-44b1-4afb-9239-cc6b6a545d89-b312/)  
 - [Phone](https://xd.adobe.com/view/e117b908-6ddd-4011-9298-cdd1a80073ed-b444/) 
