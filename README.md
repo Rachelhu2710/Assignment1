@@ -1,5 +1,8 @@
 # PUMA Shoes Website
-This website is to let people be able to buy just shoes from PUMA. It allows customers to purchase and scroll PUMA shoes. PUMA's website has a lot more variety while this website only consists of shoes to let customers who want to buy shoes can help minimize the trouble of filtering out to display only shoes. This website mainly eases customers from searching or filtering out things they do not want to see. 
+This website is to let people be able to buy just shoes from PUMA. It allows customers to purchase and scroll PUMA shoes. PUMA's website has a lot more variety while this website only consists of shoes to let customers who want to buy shoes can help minimize the trouble of filtering out to display only shoes. This website mainly eases customers from searching or filtering out things they do not want to see. If a user who is a shoe enthusist, he or she can purchase the shoe easily from this website. Other than selling solely on shoes, users are able to filter for the shoe that they are interested in such as sports shoe or fashion shoe. 
+
+PUMA is a famous branded company that sells shoes, socks, shirts and pants. However, as many buyers love to have their website customise to their choice, my webste design is able to fit their requirements and that you are able to shop your favourite items easily from the website. This website have a carousel function which can show the shoes that are newly brought in or products that are currently on promotion!
+
 ## wireframe
 - [Web](https://xd.adobe.com/view/e6412877-44b1-4afb-9239-cc6b6a545d89-b312/)  
 - [Phone](https://xd.adobe.com/view/e117b908-6ddd-4011-9298-cdd1a80073ed-b444/) 
