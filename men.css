@@ -1,0 +1,129 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.navigation
+ {
+  background-color: #252424;
+  overflow: auto; 
+}  
+.navigation a 
+{
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 18.4%; 
+  text-align: center;
+}
+.navigation a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+.navigation a.current 
+{
+  background-color:bisque;
+  color: black;
+}
+header
+{
+  text-align: center;
+}
+.shoesimage
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} 
+.container img
+{
+  width: 24%;
+} 
+.info
+{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+img
+{
+  max-width: 100%;
+}
+#shoes1
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes1:hover
+{
+  color: lightslategray;
+}
+#shoes2
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes2:hover
+{
+  color: lightslategray;
+}
+#shoes3
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes3:hover
+{
+  color: lightslategrey;
+}
+#shoes4
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes4:hover
+{
+  color: lightslategray;
+}
+#shoes5
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes5:hover
+{
+  color: lightslategray;
+}
+#shoes6
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes6:hover
+{
+  color: lightslategray;
+}
+#shoes7
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes7:hover
+{
+  color: lightslategray;
+}
+#shoes8
+{
+  color: black;
+  text-decoration: none;
+}
+#shoes8:hover
+{
+  color: lightslategray;
+}
