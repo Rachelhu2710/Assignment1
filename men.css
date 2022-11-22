@@ -31,99 +31,114 @@ header
 {
   text-align: center;
 }
+.content
+{
+  display: flexbox;
+  width: 25%;
+}
 .shoesimage
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   flex-wrap: wrap;
 } 
-.container img
+ .container img
 {
-  width: 24%;
+  max-width: 95%;
 } 
-.info
+#shoes9
 {
-  padding-top: 10px;
-  padding-bottom: 50px;
   display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
   flex-wrap: wrap;
-}
-img
-{
-  max-width: 100%;
-}
-#shoes1
-{
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes1:hover
+#shoes9:hover
 {
   color: lightslategray;
 }
-#shoes2
+#shoes10
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes2:hover
+#shoes10:hover
 {
   color: lightslategray;
 }
-#shoes3
+#shoes11
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes3:hover
+#shoes11:hover
 {
   color: lightslategrey;
 }
-#shoes4
+#shoes12
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes4:hover
+#shoes12:hover
 {
   color: lightslategray;
 }
-#shoes5
+#shoes13
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes5:hover
+#shoes13:hover
 {
   color: lightslategray;
 }
-#shoes6
+#shoes14
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes6:hover
+#shoes14:hover
 {
   color: lightslategray;
 }
-#shoes7
+#shoes15
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes7:hover
+#shoes15:hover
 {
   color: lightslategray;
 }
-#shoes8
+#shoes16
 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
   color: black;
   text-decoration: none;
 }
-#shoes8:hover
+#shoes16:hover
 {
   color: lightslategray;
 }
