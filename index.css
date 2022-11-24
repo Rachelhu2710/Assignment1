@@ -30,14 +30,12 @@ body
   background-color:bisque;
   color: black;
 }
-
 .pokemon
 {
   position: absolute;
   top: 520px;
   left: 48px;
   background-color: white;
-  width: max-content;
 }
 
 .coca-cola
