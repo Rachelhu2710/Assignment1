@@ -1,0 +1,27 @@
+div
+{
+    float: left;
+}
+.back
+{
+    color: black;
+    text-decoration: none;
+    padding: 5%;
+}
+.back:hover
+{
+    color: cadetblue;
+}
+img
+{
+    max-width: 90%;
+}
+.checkout
+{
+    color: black;
+    text-decoration: none;
+}
+.checkout:hover
+{
+    color: cornflowerblue;
+}
