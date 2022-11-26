@@ -1,15 +1,19 @@
+img
+{
+  margin-left: 3%;
+}
 .pokemon
 {
   position: absolute;
-  top: 520px;
-  left: 48px;
+  top: 75%;
+  left: 3%;
   background-color: white;
 }
 
 .coca-cola
 {
   position: absolute;
-  bottom: 40px;
-  left: 48px;
+  bottom: 10%;
+  left: 3%;
   background-color: white;
 }
