@@ -18,6 +18,60 @@ img
   left: 3%;
   background-color: white;
 }
+@media(max-width: 1441px)
+{
+  img{
+    margin-left: 0;
+  }
+  .pokemon
+  {
+    font-size: 20px;
+    top: 43%;
+    left: 0%;
+  }
+  .coca-cola
+  {
+    font-size: 20px;
+    bottom: 46%;
+    left: 0%; 
+  }  
+}
+@media(max-width: 1025px)
+{
+  img{
+    margin-left: 0;
+  }
+  .pokemon
+  {
+    font-size: 14px;
+    top: 43%;
+    left: 0%;
+  }
+  .coca-cola
+  {
+    font-size: 14px;
+    bottom: 46%;
+    left: 0%; 
+  }  
+}
+@media(max-width: 769px)
+{
+  img{
+    margin-left: 0;
+  }
+  .pokemon
+  {
+    font-size: 10px;
+    top: 43%;
+    left: 0%;
+  }
+  .coca-cola
+  {
+    font-size: 10px;
+    bottom: 46%;
+    left: 0%; 
+  }  
+}
 @media(max-width: 426px)
 {
   img{

@@ -21,4 +21,24 @@ img
     body{
       font-size: 10px;
     }
-  }
+}
+@media (max-width: 768px) {
+    body{
+      font-size: 14px;
+    }
+}
+@media (max-width: 426px) {
+    body{
+      font-size: 10px;
+    }
+}
+@media (max-width: 376px) {
+    body{
+      font-size: 10px;
+    }
+}
+@media (max-width: 320px) {
+    body{
+      font-size: 10px;
+    }
+}
