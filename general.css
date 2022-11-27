@@ -10,13 +10,14 @@ body
   
 .navigation a 
 {
+  max-width: 100%;
   float: left;
   padding: 12px; 
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 18.42%; 
   text-align: center;
+  width: 18.4%;
 }
 
 .navigation a:hover
@@ -30,17 +31,18 @@ body
   background-color:bisque;
   color: black;
 }
-@media (max-width: 430px)
+@media (max-width: 320px)
 {
   .navigation a 
   {
-    float: left;
-    padding: 12px; 
-    color: white;
-    text-decoration: none;
     font-size: 9px;
     width: 12%; 
-    text-align: center;
   }
 }
-
+ @media (max-width: 375px)
+{
+  .navigation a 
+  {
+    font-size: 9px; 
+  } 
+} 

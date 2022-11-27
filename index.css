@@ -1,11 +1,12 @@
 img
 {
+  max-width: 100%;
   margin-left: 3%;
 }
 .pokemon
 {
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 3%;
   background-color: white;
 }
@@ -13,8 +14,44 @@ img
 .coca-cola
 {
   position: absolute;
-  bottom: 10%;
+  bottom: 16%;
   left: 3%;
   background-color: white;
+}
+@media (max-width: 320px) {
+  img{
+    width: 100%;
+    margin-left: 0;
+  }
+  .pokemon
+  {
+    font-size: 9px;
+    top: 19.5%;
+    left: 0%
+  }
+  .coca-cola
+  {
+    font-size: 9px;
+    bottom: 58%;
+    left: 0%; 
+  }
+}
+@media (max-width:375px)
+{
+  img{
+    margin-left: 0;
+  }
+  .pokemon
+  {
+    font-size: 9px;
+    top: 19.5%;
+    left: 0%
+  }
+  .coca-cola
+  {
+    font-size: 9px;
+    bottom: 58%;
+    left: 0%; 
+  }
 }
 

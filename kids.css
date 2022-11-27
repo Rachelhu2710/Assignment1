@@ -109,3 +109,9 @@
 {
   color: lightslategray;
 }
+@media (max-width: 320px) {
+  .content{
+    font-size: 10px;
+    width: 50%;
+  }
+}
