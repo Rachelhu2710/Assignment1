@@ -31,7 +31,23 @@ body
   background-color:bisque;
   color: black;
 }
-@media (max-width: 320px)
+@media(max-width: 426px)
+{
+  .navigation a 
+  {
+    font-size: 9px; 
+    width: 14%;
+  } 
+}
+@media (max-width: 376px)
+{
+  .navigation a 
+  {
+    font-size: 9px; 
+    width: 13.5%;
+  } 
+} 
+@media (max-width: 321px)
 {
   .navigation a 
   {
@@ -39,10 +55,3 @@ body
     width: 12%; 
   }
 }
- @media (max-width: 375px)
-{
-  .navigation a 
-  {
-    font-size: 9px; 
-  } 
-} 
