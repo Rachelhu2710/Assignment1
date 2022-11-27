@@ -36,7 +36,15 @@ body
   .navigation a 
   {
     font-size: 9px; 
-    width: 14%;
+    width: 14.35%;
+  } 
+}
+@media(max-width: 413px)
+{
+  .navigation a 
+  {
+    font-size: 9px; 
+    width: 14.15%;
   } 
 }
 @media (max-width: 376px)
@@ -47,6 +55,14 @@ body
     width: 13.5%;
   } 
 } 
+@media (max-width: 361px)
+{
+  .navigation a 
+  {
+    font-size: 9px; 
+    width: 13.33%;
+  }  
+}
 @media (max-width: 321px)
 {
   .navigation a 
