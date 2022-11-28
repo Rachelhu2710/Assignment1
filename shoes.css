@@ -25,9 +25,14 @@ img
 {
     color: cornflowerblue;
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
+  body{
+    font-size: 12px;
+  }
+}
+@media (max-width: 769px) {
     body{
-      font-size: 16px;
+      font-size: 9px;
     }
   }
   @media (max-width: 426px) {
@@ -40,8 +45,8 @@ img
       font-size: 10px;
     }
   } 
-  @media (max-width: 320px) {
+  @media (max-width: 321px) {
     body{
-      font-size: 10px;
+      font-size: 9px;
     }
   } 

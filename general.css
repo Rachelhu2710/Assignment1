@@ -5,19 +5,27 @@ body
 .navigation
  {
   background-color: #252424;
-  overflow: auto; 
+  overflow: auto;
+  display: flexbox; 
+
 }
-  
+
 .navigation a 
 {
+  justify-content:space-around;
+  display: flex;
+  flex-basis:1% ;
+  flex-grow:1 ;
+  padding: 0;
+  padding-top:10px ;
+  padding-bottom: 10px;
   max-width: 100%;
-  float: left;
-  padding: 12px; 
+  float: left; 
   color: white;
   text-decoration: none;
   font-size: 17px;
   text-align: center;
-  width: 18.4%;
+  width: 20%;
 }
 
 .navigation a:hover
@@ -31,67 +39,11 @@ body
   background-color:bisque;
   color: black;
 }
-@media(max-width: 1441px)
-{
-  .navigation a 
-  {
-    font-size: 24px; 
-    width: 18.33%;
-  }   
-}
-@media(max-width: 1025px)
-{
-  .navigation a 
-  {
-    font-size: 20px; 
-    width: 17.65%;
-  }   
-}
-@media(max-width: 769px)
-{
-  .navigation a 
-  {
-    font-size: 12px; 
-    width: 16.8%;
-  }  
-}
 @media(max-width: 426px)
 {
   .navigation a 
   {
     font-size: 9px; 
-    width: 14.35%;
   } 
 }
-@media(max-width: 413px)
-{
-  .navigation a 
-  {
-    font-size: 9px; 
-    width: 14.15%;
-  } 
-}
-@media (max-width: 376px)
-{
-  .navigation a 
-  {
-    font-size: 9px; 
-    width: 13.5%;
-  } 
-} 
-@media (max-width: 361px)
-{
-  .navigation a 
-  {
-    font-size: 9px; 
-    width: 13.33%;
-  }  
-}
-@media (max-width: 321px)
-{
-  .navigation a 
-  {
-    font-size: 9px;
-    width: 12%; 
-  }
-}
+
