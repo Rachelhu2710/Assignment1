@@ -28,8 +28,8 @@ This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117
 ## Technologies Used
 I have used HTML, JavaScript, CSS and XD
 ## Testing
-1. Women, Man, Kids Page
-  i. All products are able to click in 
+1. Women, Man, Kids Page  
+    i. All products are able to click in 
   ii. When on mobile the products on each row would be 2
   iii. When on laptop the products on each row would be 4
   iv. Had issues to align text and image together
