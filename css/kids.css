@@ -114,18 +114,3 @@
     width: 50%;
   }
 }
-@media (max-width: 426px) {
-  .content{
-    width: 50%;
-  }
-}
-@media (max-width: 376px) {
-  .content{
-    width: 50%;
-  }
-}
-@media (max-width: 320px) {
-  .content{
-    width: 50%;
-  }
-}
