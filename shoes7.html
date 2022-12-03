@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="shoes.css" rel="stylesheet" type="text/css"/>
-    <link href="general.css" rel="stylesheet" type="text/css" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
+    <link href="css/general.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <title>Prowl Slip-On Shine Women's Training Shoes</title>
@@ -25,7 +25,15 @@
             <img src="images/Prowl-Slip-On-Shine-Women's-Training-Shoes.webp" alt="Prowl Slip-On Shine Women's Training Shoes">
         </p>
         <p> Price: $65.40 </p>
-        <a href="#"><input type="submit" value="Checkout"></a>
+        <label> Quantity:
+            <input id="quantity" type="number" placeholder="Quantity">
+        </label>
+        <label> Size:
+            <input id = "size"type="number" placeholder="Size">
+        </label>
+        <p>
+            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
+        </p>
     </div>
     <main>
         <h2>Description</h2>
@@ -47,12 +55,7 @@
             <li>3</li>
             <li>7</li>
         </p>
-        <label> Quantity:
-            <input type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input type="number" placeholder="Size">
-        </label>
     </main>
+    <script src="js/order.js"></script>
 </body>
 </html>

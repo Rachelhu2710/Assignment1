@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/checkout.css" rel="stylesheet" type="text/css"/>
+    <link href="css/general.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women</title>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="women.html">Women</a>
+        <a href="men.html">Men</a>
+        <a href="kids.html">Kids</a>
+        <a href="about.html">About Us</a>
+    </nav>
+    <form name="details">
+        <p>
+            <label>Name: </label>
+            <input id="naming" type="text" placeholder="Name" required>
+        </p>
+        <p>
+            <label>Phone Number:</label>
+            <input id="phoneno"type="tel"placeholder="Phone Number" required>
+        </p>
+        <p>
+            <label>Email: </label>
+            <input id="email" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"    required>
+        </p>
+        <input class="submit" type="submit" onclick="validate()">
+    </form>
+    <div id = "display">
+       <h2><u>Receipt</u> </h2>
+    </div>
+    <script src="js/order.js"></script>
+</body>
+</html>

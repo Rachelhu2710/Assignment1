@@ -17,6 +17,17 @@ img
   margin-top: 8px;
   margin-bottom: 8px;
 } 
+.history
+{
+  width: 98%;
+  background-color: #EAE3C9;
+  margin-right: auto;
+  margin-left: auto;
+}
+h2
+{
+  text-align: center;
+}
 /* @media(max-width: 1441px)
 {
   img{
