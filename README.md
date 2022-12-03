@@ -30,12 +30,12 @@ I have used HTML, JavaScript, CSS and XD
 ## Testing
 1. Women, Man, Kids Page  
     i. All products are able to click in 
-    ii. When on mobile the products on each row would be 2
-    iii. When on laptop the products on each row would be 4
-    iv. Had issues to align text and image together
+        ii. When on mobile the products on each row would be 2
+        iii. When on laptop the products on each row would be 4
+        iv. Had issues to align text and image together
 2. Indiviual Product Page
-   i. There is a back text that is able to click on and will lead you back to the previous page that you was scrolling 
-   ii. Had issues trying to put the discription of the shoes and the right side of the page 
+        i. There is a back text that is able to click on and will lead you back to the previous page that you was scrolling 
+    ii. Had issues trying to put the discription of the shoes and the right side of the page 
    iii. There is 2 input boxes one for size and quantity and both input boxes can only input numbers
    iv. There is also a button at the buttom name checkout which will lead you to the checkout page 
 3. 
