@@ -29,8 +29,8 @@ This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117
 I have used HTML, JavaScript, CSS and XD
 ## Testing
 1. Women, Man, Kids Page  
-   - i. All products are able to click in 
-        ii. When on mobile the products on each row would be 2
+      i. All products are able to click in 
+       ii. When on mobile the products on each row would be 2
         iii. When on laptop the products on each row would be 4
         iv. Had issues to align text and image together
 2. Indiviual Product Page
@@ -38,7 +38,11 @@ I have used HTML, JavaScript, CSS and XD
     ii. Had issues trying to put the discription of the shoes and the right side of the page 
    iii. There is 2 input boxes one for size and quantity and both input boxes can only input numbers
    iv. There is also a button at the buttom name checkout which will lead you to the checkout page 
-3. 
+
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
 ## Credits
 ### Content
 - Information of shoes was copied from [puma website](https://sg.puma.com/)
