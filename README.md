@@ -4,12 +4,13 @@ This website is to let people be able to buy just shoes from PUMA. It allows cus
 PUMA is a famous branded company that sells shoes, socks, shirts and pants. However, as many buyers love to have their website customise to their choice, my webste design is able to fit their requirements and that you are able to shop your shoes items easily from the website. This website show PUMA collaboration shoes.
 
 ## Design Process
-The reason why i wanted to design a webpage of PUMA shoes is so that shoe enthusist and customers who wants to only scroll for shoes they do not need to filter out or go around the website to find where they cab scroll for shoes and to find for new collaborations puma have. My webpage let customers know about the latest collaboration and to let user scroll by different category like women, men and kids collection so that they do not need to filter out to find kids shoes
-- As a user i would want to see the latest collaboration that PUMA so that i could buy them to sell or to keep
-- As a user i would want to scroll just a particular category of shoes so that i could find kids shoes or females shoes to scroll and see
-- As a user i would want find contact information so that i can contact them when i have any quries 
-- As a user i would want to know the physical stores so that i could go to the stores to try on the shoes
-- As a user i would want to know the physical store type so that i know which is the outlet store so to know where has the most shoe range and stock available 
+The reason why i wanted to design a webpage of PUMA shoes is so that shoe enthusist and customers who wants to only scroll for shoes they do not need to filter out or go around the website to find where they cab scroll for shoes and to find for new collaborations puma have. My webpage let customers know about the latest collaboration and to let user scroll by different category like women, men and kids collection so that they do not need to filter out to find kids shoes.
+As a user:
+- I would want to see the latest collaboration that PUMA so that i could buy them to sell or to keep
+- I would want to scroll just a particular category of shoes so that i could find kids shoes or females shoes to scroll and see
+- I would want find contact information so that i can contact them when i have any quries 
+- I would want to know the physical stores so that i could go to the stores to try on the shoes
+- I would want to know the physical store type so that i know which is the outlet store so to know where has the most shoe range and stock available 
 
 This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117b908-6ddd-4011-9298-cdd1a80073ed-b444/) version [web](https://xd.adobe.com/view/e6412877-44b1-4afb-9239-cc6b6a545d89-b312/) version
 
@@ -20,13 +21,18 @@ This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117
 - Able to select size and quantity
 - There is a button at the side for user to click to checkout
 - Allows users to fill in their particulars to submit 
+- User is able to hover around the navigation bar and would have a colour shown when they hover over
+- User is also able to see which page they are in as it is of different colour
 ### Futrue Features
 - Able to add multiple products 
 - Able to filter the type of shoes you want to see like to diplay only running shoes
 - Able to see the recipt and the details they input after checkout has been processed successfully 
 - Able to remove products or quantity if added by accident
 ## Technologies Used
-I have used HTML, JavaScript, CSS and XD
+JavaScript - Makes user input be able to capture and display out
+CSS - Design and format website to make it appear nicer 
+Google Fonts - Used to make website font nicer
+XD - To do up my wireframe
 ## Testing
 1. Women, Man, Kids Page  
       1. All products are able to click in 
@@ -62,6 +68,7 @@ I have used HTML, JavaScript, CSS and XD
 - Information of shoes was copied from [puma website](https://sg.puma.com/)
 - Histroy of PUMA was copied from [wikipedia](https://en.wikipedia.org/wiki/Puma_(brand))
 - About us page information was copied from [puma website](https://sg.puma.com/)
+- Hover and Navigation Bar from [w3school](https://www.w3schools.com/howto/howto_js_topnav.asp)
 ### Media
 - [Puma shoes](https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/387049/01/sv01/fnd/SEA/fmt/png/PUMA-x-COCA-COLA-Suede-Sneakers)
 - [Puma shoes](https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/387027/01/sv01/fnd/SEA/fmt/png/PUMA-x-COCA-COLA-Slipstream-Sneakers)
