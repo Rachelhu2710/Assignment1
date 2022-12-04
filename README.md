@@ -29,10 +29,10 @@ This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117
 - Able to see the recipt and the details they input after checkout has been processed successfully 
 - Able to remove products or quantity if added by accident
 ## Technologies Used
-JavaScript - Makes user input be able to capture and display out
-CSS - Design and format website to make it appear nicer 
-Google Fonts - Used to make website font nicer
-XD - To do up my wireframe
+- JavaScript - Makes user input be able to capture and display out
+- CSS - Design and format website to make it appear nicer 
+- Google Fonts - Used to make website font nicer
+- XD - To do up my wireframe
 ## Testing
 1. Women, Man, Kids Page  
       1. All products are able to click in 
