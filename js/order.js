@@ -129,14 +129,9 @@ function checkout()
 function validate()
 {
     let naming = document.getElementById('naming').value
-    // let phoneno = document.getElementById('phoneno').value
-    if(naming.length<2)
+    if(naming.length<=2)
     {
         alert("Name must be more than 2 charaters")
-    }
-    if(phoneno.length<8)
-    {
-        alert("Invalid Phone number. Phone number must have at least 8 numbers")
     }
 }
 let shoes =
