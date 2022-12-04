@@ -95,6 +95,6 @@ This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117
 - [Instagram icon](https://cdn.pixabay.com/photo/2017/11/10/05/04/instagram-2935404__340.png)
 - [Pinterest icon](https://cdn.pixabay.com/photo/2022/01/11/15/02/pinterest-6930796__340.png)
 - [Youtube icon](https://cdn.pixabay.com/photo/2017/11/10/05/05/youtube-2935416__340.png)
-- [Checkout Page GIF] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.affirmativeactionprograms.org%2Fgif-puma-adidas-k.html&psig=AOvVaw2XRFm00P8_9NDDgJe17aTN&ust=1670142389517000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjgz7CD3fsCFQAAAAAdAAAAABAj)
+- [Checkout Page GIF](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.affirmativeactionprograms.org%2Fgif-puma-adidas-k.html&psig=AOvVaw2XRFm00P8_9NDDgJe17aTN&ust=1670142389517000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjgz7CD3fsCFQAAAAAdAAAAABAj)
 ### Acknowledgement
 - I get my inspiration for this project from PUMA website
