@@ -1,15 +1,13 @@
 body
 {
-  font-family: "Albert Sans";
+  font-family: 'Albert Sans', sans-serif;
   font-size: 20px; 
 }
 .navigation
  {
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   background-color: #252424;
   overflow: auto;
-  display: flexbox; 
-
 }
 
 .navigation a 

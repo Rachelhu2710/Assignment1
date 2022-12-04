@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Softride Premier Women's Running Shoes</title>
 </head>
 <body>
@@ -25,45 +26,50 @@
             <img src="images/Softride-Premier-Women's-Running-Shoes.webp" alt="Softride Premier Women's Running Shoes">
         </p>
         <p> Price: $119.00 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
         <p>Chalk up in the miles in comfort with the Softride Premier Running Shoes. Thanks to the cushioned midsole and anatomically 
             shaped SoftFoam+ sockliner, as well as the zoned rubber outsole for greater traction, your feet will stay happy even when 
-            you train hard. Plus, the bold branding adds interest and style.
-            <li>Style: 376187_02</li>
-            <li>Colour: Chalk Pink-Puma White</li>
-        </p>
-        <p>
+            you train hard. Plus, the bold branding adds interest and style.</p>
+            <ul>
+                <li>Style: 376187_02</li>
+                <li>Colour: Chalk Pink-Puma White</li>
+            </ul>
+
             <h3>Features & Benefits</h3>
             SoftFoam+: PUMA's comfort sockliner for instant step-in and long-lasting comfort that provides soft cushioning every step 
             of your day
             <h3>Details</h3>
-            <li>Low boot</li>
-            <li>Anatomically shaped, removable SoftFoam+ sockliner for optimum comfort</li>
-            <li>Cushioned Softride midsole for comfort</li>
-            <li>Rubber outsole with zoned heel and toe sections for added traction during training</li>
-            <li>PUMA Cat Logo on tongue and at heel</li>
-        </p>
-        <p>
+            <ul>
+                <li>Low boot</li>
+                <li>Anatomically shaped, removable SoftFoam+ sockliner for optimum comfort</li>
+                <li>Cushioned Softride midsole for comfort</li>
+                <li>Rubber outsole with zoned heel and toe sections for added traction during training</li>
+                <li>PUMA Cat Logo on tongue and at heel</li>
+            </ul>
+            
             <h3>Size Chart</h3>
-            <li>3</li>
-            <li>4</li>
-            <li>4.5</li>
-            <li>5</li>
-            <li>5.5</li>
-            <li>6</li>
-            <li>6.5</li>
-        </p>
+            <ul>
+                <li>3</li>
+                <li>4</li>
+                <li>4.5</li>
+                <li>5</li>
+                <li>5.5</li>
+                <li>6</li>
+                <li>6.5</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>

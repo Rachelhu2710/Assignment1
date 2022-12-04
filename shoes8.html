@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>TRC Blaze Court Basketball Shoes</title>
 </head>
 <body>
@@ -25,15 +26,17 @@
             <img src="images/TRC-Blaze-Court-Basketball-Shoes.webp" alt="TRC Blaze Court Basketball Shoes">
         </p>
         <p> Price: $119.40 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
@@ -41,31 +44,36 @@
             threat – cushioning, flexibility, stability – this shoe boasts a low boot silhouette but a high energy rebound. 
             Cross-court traction puts you in command with a full coverage rubber outsole for extra stick, and the sidewall and 
             heel counter make sure your foot is locked and loaded for additional stability. It’s everything you need for high hoops 
-            performance.
-            <li>Style: 376582_16</li>
-            <li>Colour: Puma Black-Deep Aqua</li>
-        </p>
-        <p>
+            performance.</p>
+            <ul>
+                <li>Style: 376582_16</li>
+                <li>Colour: Puma Black-Deep Aqua</li>
+            </ul>
+           
             <h3>Features & Benefits</h3>
-            <li>ProFoam: PUMA's lightweight, high-rebound EVA midsole solution provides instant cushioning and a responsive ride</li>
-            <li>CMEVA: PUMA's compression-moulded EVA material for lightweight performance</li>
+            <ul>
+                <li>ProFoam: PUMA's lightweight, high-rebound EVA midsole solution provides instant cushioning and a responsive ride</li>
+                <li>CMEVA: PUMA's compression-moulded EVA material for lightweight performance</li>
+            </ul>
             <h3>Details</h3>
-            <li>Low boot</li>
-            <li>TPU sidewall and heel</li>
-            <li>ProFoam EVA midsole</li>
-            <li>Trinomic cell structure for stability and cushioning</li>
-        </p>
-        <p>
+            <ul>
+                <li>Low boot</li>
+                <li>TPU sidewall and heel</li>
+                <li>ProFoam EVA midsole</li>
+                <li>Trinomic cell structure for stability and cushioning</li>
+            </ul>
+            
             <h3>Size Chart</h3>
-            <li>6</li>
-            <li>7</li>
-            <li>7.5</li>
-            <li>8</li>
-            <li>8.5</li>
-            <li>9</li>
-            <li>9.5</li>
-            <li>10</li>
-        </p>
+            <ul>
+                <li>6</li>
+                <li>7</li>
+                <li>7.5</li>
+                <li>8</li>
+                <li>8.5</li>
+                <li>9</li>
+                <li>9.5</li>
+                <li>10</li>
+            </ul>            
     </main>
     <script src="js/order.js"></script>
 </body>

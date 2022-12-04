@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Prowl Slip-On Shine Women's Training Shoes</title>
 </head>
 <body>
@@ -25,36 +26,41 @@
             <img src="images/Prowl-Slip-On-Shine-Women's-Training-Shoes.webp" alt="Prowl Slip-On Shine Women's Training Shoes">
         </p>
         <p> Price: $65.40 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
         <p>Move with speed and agility in PUMA's Prowl Slip-On Shine Training Shoes. These lightweight, flexible shoes will support 
-            you on the track or in the gym thanks to PUMA's SoftFoam+
-            <li>Style: 372276_01</li>
-            <li>Colour: Puma Black-Puma Team Gold-Puma White</li>
-        </p>
-        <p>
+            you on the track or in the gym thanks to PUMA's SoftFoam+</p>
+            <ul>
+                <li>Style: 372276_01</li>
+                <li>Colour: Puma Black-Puma Team Gold-Puma White</li>
+            </ul>
+
             <h3>Features & Benefits</h3>
             SoftFoam+: PUMA's comfort sockliner for instant step-in and long-lasting comfort that provides soft cushioning every 
             step of your day
             <h3>Details</h3>
-            <li>Low-boot construction</li>
-            <li>Sock-like fit</li>
-        </p>
-        <p>
+            <ul>
+                <li>Low-boot construction</li>
+                <li>Sock-like fit</li>
+            </ul>
+           
             <h3>Size Chart</h3>
-            <li>3</li>
-            <li>7</li>
-        </p>
+            <ul>
+                <li>3</li>
+                <li>7</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>

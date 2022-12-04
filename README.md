@@ -29,16 +29,34 @@ This is a link to my design wireframe for [phone](https://xd.adobe.com/view/e117
 I have used HTML, JavaScript, CSS and XD
 ## Testing
 1. Women, Man, Kids Page  
-      i. All products are able to click in 
-      ii. When on mobile the products on each row would be 2
-      iii. When on laptop the products on each row would be 4
-      iv. Had issues to align text and image together
+      1. All products are able to click in 
+      2. When on mobile the products on each row would be 2
+      3. When on laptop the products on each row would be 4
+      4. Had issues to align text and image together
 2. Indiviual Product Page
-      i. There is a back text that is able to click on and will lead you back to the previous page that you was scrolling 
-      ii. Had issues trying to put the discription of the shoes and the right side of the page 
-      iii. There is 2 input boxes one for size and quantity and both input boxes can only input numbers
-      iv. There is also a button at the buttom name checkout which will lead you to the checkout page 
-
+      1. There is a back text that is able to click on and will lead you back to the previous page that you was scrolling 
+      2. Had issues trying to put the discription of the shoes and the right side of the page 
+      3. There is 2 input boxes one for size and quantity and both input boxes can only input numbers
+      3. There is also a button at the buttom name checkout which will lead you to the checkout page 
+3. Checkout Page 
+      1. There is a Name text box for user to key their name and if is not more than 2 characters it will produce a error message after clicking the submit button
+      2. There is a Phone number input box for user to key their phone number and if is not more than 8 numbers it will produce a error message to tell user to key in a valid phone number and would also make sure that the phone numnbers start with 8/9
+      3. The email has a validation for email it needs to include a @ and a .com at the correct position if not user will need to retype the email
+      4. All input fields cannot be left blank
+      5. Had issues trying to do up the validation 
+      6. Had issues trying to capture the user input for the quantity and shoe size to display out at the bottom
+      7. At the bottom there is the qunatity and shoes size at the bottom after the form 
+4. Navigation Bar
+      1. Had issues trying to resize according to the size page and not move down
+      2. Had issues trying to space out evenly 
+      3. All tab are able to hover over with color and also able to show the current page you in
+5. About Us
+      1. The details of each individual store location are collapse 
+      2. Details of contact is also collapse 
+      3. The email is able to click and will lead you to be able to send to the email
+      4. The icons at the side are their social media account and the names
+      5. Names of the social media account is able to click and would lead you to their social media page
+      6. On mobile the icons would move to the bottom of the page
 ## Credits
 ### Content
 - Information of shoes was copied from [puma website](https://sg.puma.com/)
@@ -72,4 +90,4 @@ I have used HTML, JavaScript, CSS and XD
 - [Youtube icon](https://cdn.pixabay.com/photo/2017/11/10/05/05/youtube-2935416__340.png)
 - [Checkout Page GIF] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.affirmativeactionprograms.org%2Fgif-puma-adidas-k.html&psig=AOvVaw2XRFm00P8_9NDDgJe17aTN&ust=1670142389517000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjgz7CD3fsCFQAAAAAdAAAAABAj)
 ### Acknowledgement
-- I get my inspiration for this project from PUMA
+- I get my inspiration for this project from PUMA website

@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>PWRFRAME Men's Training Shoes</title>
 </head>
 <body>
@@ -25,47 +26,52 @@
             <img src="images/PWRFRAME-Men's-Training-Shoes.webp" alt="PWRFRAME Men's Training Shoes">
         </p>
         <p> Price: $95.40 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
         <p>Start every workout the right way – with the ultimate foundation. PWRFRAME TR is a high-performance training shoe that 
             features our new PWRFRAME technology which is engineered specifically for forefoot support during explosive movements. 
             The 3D support system helps keep you steady through every interval, making it perfect for a wide range of routines. 
-            Its maximum functionality helps enhance any and every workout.
-            <li>Style: 376049_08</li>
-            <li>Colour: Puma Black-CASTLEROCK-Lime Squeeze</li>
-        </p>
-        <p>
+            Its maximum functionality helps enhance any and every workout.</p>
+            <ul>
+                <li>Style: 376049_08</li>
+                <li>Colour: Puma Black-CASTLEROCK-Lime Squeeze</li>
+            </ul>
+
             <h3>Details</h3>
-            <li>Low boot construction</li>
-            <li>Textile upper</li>
-            <li>PWRFRAME midsole</li>
-            <li>PUMAGRIP high-traction rubber outsole</li>
-            <li>Textile tongue</li>
-            <li>Lace closure</li>
-            <li>PUMA Cat Logo at tongue</li>
-        </p>
-        <p>
+            <ul>
+                <li>Low boot construction</li>
+                <li>Textile upper</li>
+                <li>PWRFRAME midsole</li>
+                <li>PUMAGRIP high-traction rubber outsole</li>
+                <li>Textile tongue</li>
+                <li>Lace closure</li>
+                <li>PUMA Cat Logo at tongue</li>
+            </ul>
+
             <h3>Size Chart</h3>
-            <li>7.5</li>
-            <li>8</li>
-            <li>8.5</li>
-            <li>9</li>
-            <li>9.5</li>
-            <li>10</li>
-            <li>10.5</li>
-            <li>11</li>
-            <li>12</li>
-        </p>
+            <ul>
+                <li>7.5</li>
+                <li>8</li>
+                <li>8.5</li>
+                <li>9</li>
+                <li>9.5</li>
+                <li>10</li>
+                <li>10.5</li>
+                <li>11</li>
+                <li>12</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>

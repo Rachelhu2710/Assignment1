@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>FUTURE 3.3 FG/AG Youth Football Boots</title>
 </head>
 <body>
@@ -25,15 +26,17 @@
             <img src="images/AG-Youth-Football-Boots.webp" alt="FUTURE 3.3 FG/AG Youth Football Boots">
         </p>
         <p> Price: $53.40 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
@@ -42,29 +45,30 @@
             flexibility – with or without laces. Advanced Creator Zones positioned at the forefoot deliver exceptional ball control and 
             touch at high speeds, while a lightweight and supremely reactive outsole with studs suitable for firm and artificial ground 
             provides superior traction. Elegant yet agile, with a slip-on construction for comfort and convenience, plus bold PUMA 
-            branding and cool colour combinations that stand out with style, you'll be playing like the pros.
-            <li>Style: 106773_01</li>
-            <li>Colour: Neon Citrus-Diamond Silver-Puma Black</li>
-        </p>
-        <p>
+            branding and cool colour combinations that stand out with style, you'll be playing like the pros.</p>
+            <ul>
+                <li>Style: 106773_01</li>
+                <li>Colour: Neon Citrus-Diamond Silver-Puma Black</li>
+            </ul>
             <h3>Features and Benefits</h3>
             FUZIONFIT: PUMA's adaptive compression band for unparalleled fit and lock-down
             <h3>Details</h3>
-            <li>Highly technical and soft engineered upper gets you closer to the ball</li>
-            <li>Advanced Creator Zones provide superior touch in key contact zones for game-changing touch and dribbling</li>
-            <li>Dynamic Motion System outsole provides exceptional freedom of movement and support for explosive changes in direction</li>
-            <li>Advanced stud configuration enhances traction for unrivalled agility</li>
-            <li>FG/AG: Firm Ground/Artificial Ground</li>
-            <li>PUMA Cat Logo at lateral forefoot</li>
-            <li>PUMA Youth style: Recommended for older kids between 8 and 16 years</li>
-        </p>
-        <p>
+            <ul>
+                <li>Highly technical and soft engineered upper gets you closer to the ball</li>
+                <li>Advanced Creator Zones provide superior touch in key contact zones for game-changing touch and dribbling</li>
+                <li>Dynamic Motion System outsole provides exceptional freedom of movement and support for explosive changes in direction</li>
+                <li>Advanced stud configuration enhances traction for unrivalled agility</li>
+                <li>FG/AG: Firm Ground/Artificial Ground</li>
+                <li>PUMA Cat Logo at lateral forefoot</li>
+                <li>PUMA Youth style: Recommended for older kids between 8 and 16 years</li>
+            </ul>
             <h3>Size Chart</h3>
-            <li>3</li>
-            <li>3.5</li>
-            <li>4</li>
-            <li>5.5</li>
-        </p>
+            <ul>
+                <li>3</li>
+                <li>3.5</li>
+                <li>4</li>
+                <li>5.5</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>

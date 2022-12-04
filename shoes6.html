@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Leadcat FTR Slides</title>
 </head>
 <body>
@@ -25,39 +26,43 @@
             <img src="images/Leadcat-FTR-Slides.webp" alt="Leadcat FTR Slides">
         </p>
         <p> Price: $45.00 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
         <p>Lead the fashion pack in our Leadcat FTR Sandals, a re-invention of one of our most iconic slides. This new vision of a 
-            classic silhouette features an ultra plush moulded foot
-            <li>Style: 372276_01</li>
-            <li>Colour: Puma Black-Puma Team Gold-Puma White</li>
-        </p>
-        <p>
+            classic silhouette features an ultra plush moulded foot</p>
+            <ul>
+                <li>Style: 372276_01</li>
+                <li>Colour: Puma Black-Puma Team Gold-Puma White</li>
+            </ul>
+            
             <h3>Details</h3>
-            <li>Moulded footbed for soft comfort</li>
-            <li>Padded, premium synthetic leather strap</li>
-            <li>Moulded EVA outsole for grip and durability</li>
-        </p>
-        <p>
+            <ul>
+                <li>Moulded footbed for soft comfort</li>
+                <li>Padded, premium synthetic leather strap</li>
+                <li>Moulded EVA outsole for grip and durability</li>
+            </ul>
             <h3>Size Chart</h3>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>10</li>
-        </p>
+            <ul>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>10</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>

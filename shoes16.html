@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Cool Cat V Sandals Men</title>
 </head>
 <body>
@@ -25,37 +26,42 @@
             <img src="images/Cool-Cat-V-Sandals-Men.webp" alt="Cool Cat V Sandals Men">
         </p>
         <p> Price: $27.00 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
         <p>
-            The Cool Cat slides are for those who don't want to compromise on comfort or style.
-            <li>Style: 371044_02</li>
-            <li>Colour: Puma Black-Puma White</li>
-        </p>
-        <p>
+            The Cool Cat slides are for those who don't want to compromise on comfort or style.</p>
+            <ul> 
+                <li>Style: 371044_02</li>
+                <li>Colour: Puma Black-Puma White</li>
+            </ul>
+
             <h3>Details</h3>
-            <li>Adjustable strap</li>
-            <li>Soft moulded footbed</li>
-            <li>PWRFRAME midsole</li>
-            <li>Light moulded EVA outsole</li>
-        </p>
-        <p>
+            <ul>
+                <li>Adjustable strap</li>
+                <li>Soft moulded footbed</li>
+                <li>PWRFRAME midsole</li>
+                <li>Light moulded EVA outsole</li>
+            </ul>
+
             <h3>Size Chart</h3>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-        </p>
+            <ul>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>

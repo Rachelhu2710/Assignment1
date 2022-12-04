@@ -7,8 +7,9 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/shoes.css" rel="stylesheet" type="text/css"/>
     <link href="css/general.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans&display=swap" rel="stylesheet">
     <title>PUMA x POKÉMON Rider FV Bulbasaur Sneakers Kids</title>
 </head>
 <body>
@@ -25,43 +26,48 @@
             <img src="images/PUMA-x-POKÉMON-Rider-FV-Bulbasaur-Sneakers-Kids.webp" alt="PUMA x POKÉMON Rider FV Bulbasaur Sneakers Kids">
         </p>
         <p> Price: $119.00 </p>
-        <label> Quantity:
-            <input id="quantity" type="number" placeholder="Quantity">
-        </label>
-        <label> Size:
-            <input id = "size"type="number" placeholder="Size">
-        </label>
-        <p>
-            <a href="checkout.html"><button onclick="checkout()"> Checkout</button></a>
-        </p>
+        <form action="checkout.html">
+            <label> Quantity:
+                <input id="quantity" type="number" placeholder="Quantity">
+            </label>
+            <label> Size:
+                <input id = "size" type="number" placeholder="Size">
+            </label>
+            <p>
+                <button onclick="checkout()"> Checkout</button>
+            </p>
+        </form>
     </div>
     <main>
         <h2>Description</h2>
         <p>The PUMA x POKÉMON collection is inspired by some of the most iconic POKÉMON, and we take some of their instantly 
             recognisable elements to give this Rider FV a splash of POKÉMON DNA. Eye-catching colours, statement graphics, 
-            Bulbasaur-inspired details – it’s all here. Are you gonna catch ‘em all?
-            <li>Style: 387420_01</li>
-            <li>Colour: Ivy-Holiday</li>
-        </p>
-        <p>
+            Bulbasaur-inspired details – it’s all here. Are you gonna catch ‘em all?</p>
+            <ul>
+                <li>Style: 387420_01</li>
+                <li>Colour: Ivy-Holiday</li>
+            </ul>
+        
             <h3>Details</h3>
-            <li>Nylon and suede upper</li>
-            <li>EVA Midsole</li>
-            <li>Rubber outsole</li>
-            <li>PUMA Formstrip on medial and lateral sides</li>
-            <li>Stitched POKÉMON patch</li>
-            <li>POKÉMON label on the tongue</li>
-            <li>PUMA Kids: Recommended for young kids between 4 and 8 years</li>
-        </p>
-        <p>
+            <ul>
+                <li>Nylon and suede upper</li>
+                <li>EVA Midsole</li>
+                <li>Rubber outsole</li>
+                <li>PUMA Formstrip on medial and lateral sides</li>
+                <li>Stitched POKÉMON patch</li>
+                <li>POKÉMON label on the tongue</li>
+                <li>PUMA Kids: Recommended for young kids between 4 and 8 years</li>
+            </ul>
+            
             <h3>Size Chart</h3>
-            <li>1</li>
-            <li>2</li>
-            <li>10</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-        </p>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+            </ul>
     </main>
     <script src="js/order.js"></script>
 </body>
